@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../static/css/signin.css" type="text/css" />
+    <script
+      src="https://kit.fontawesome.com/b5eae3d1fd.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <title>Login | CC_GEN</title>
+  </head>
+  <body>
+    <main>
+      <div class="sign_in_box">
+        <div class="sign_in_text">
+          <div class="sign_in_head">
+            <span><h2>Login</h2></span>
+            <div>
+              <select name="lang" id="lang">
+                <option value="English  (UK)">English (UK)</option>
+                <option value="french">French (FR)</option>
+                <option value="naija">Naija Egbo (NJ)</option>
+                <option value="twi">Twi (GH)</option>
+              </select>
+            </div>
+          </div>
+          <div id="welcome_note">
+            <p>
+              Welcome back User, please login into your
+              account
+            </p>
+          </div>
+          <div id="form">
+            <form action="landing.html" class="sign_in_form" method="POST">
+              <div class="name">
+                <br />
+                <label>Username</label> <br />
+                <input
+                  type="text"
+                  class="full_name_text"
+                  placeholder=" first name"
+                  required=""
+                />
+              </div>
+              <div class="password">
+                <br />
+                <label>Password</label> <br />
+                <input
+                  type="password"
+                  name="password"
+                  placeholder="Password"
+                  id="password"
+                  required=""
+                />
+                <i class="fa-solid fa-eye" id="show_password"></i>
+              </div>
+              <div class="forgot_password"><p><a href="">Forgot password?</a></p></div>
+
+              <div class="checkbox">
+                <input type="checkbox" name="T&Cs" value="T&CS" />
+                <p id="remember_me">
+                  Remember me
+                </p>
+              </div>
+              <div class="submit_btn">
+                <input type="submit" value="Login" class="btn" />
+              </div>
+              <p id="line_break"></p>
+              <p id="sign_in_sm">Login with</p>
+              <div class="social-media">
+                <a href="#" class="social-icon">
+                  <i class="fab fa-facebook"></i>
+                </a>
+                <a href="#" class="social-icon">
+                  <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#" class="social-icon">
+                  <i class="fab fa-google"></i>
+                </a>
+                <a href="#" class="social-icon">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </div>
+              <p id="signup_link">
+                Don't have an account yet? <a href="signup.html">Sign up</a>
+              </p>
+            </form>
+          </div>
+        </div>
+
+        <div class="sign_in_image_page">
+          <img class="logo" src="../static/images/logo.png" alt="logo" srcset="" />
+          <img
+            class="sign_in_image"
+            src="../static/images/final_2.png"
+            alt="sign_in_image"
+          />
+        </div>
+      </div>
+    </main>
+    <script src="../static/js/signin.js"></script>
+  </body>
+</html>
