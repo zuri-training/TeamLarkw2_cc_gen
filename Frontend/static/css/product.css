@@ -1,0 +1,340 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&family=Poppins:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins","Lexend Deca", "Big SHoulders Display", sans-serif;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+
+/* nav bar */
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px 0;
+    transition: all 0.50s ease;
+    box-shadow: 0 0 3px #000;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    
+}
+
+.logo img{
+    width: 250px;
+}
+
+.navbar{
+    display: flex;
+}
+
+.navbar li{
+    list-style: none;
+}
+
+.navbar a{
+    color: #01011f;
+    font-weight: 500;
+    font-size: 1.1em;
+    padding: 5px 0;
+    margin: 0px 20px;
+    transition: all 0.3s ease;
+}
+
+.navbar a:hover{
+    color: aqua;
+}
+
+.navbar a.active{
+    color: #01011f;
+    border-bottom: 2px solid #01011f;
+    width: 100%;
+    border-radius: 1px;
+    transition: 0.2s ease;
+    
+}
+
+.navbar a.active:hover{
+    color: aquamarine;
+    border-bottom: 2px solid aquamarine;
+    width: 100%;
+    border-radius: 1px;
+    transition: 0.3s ease;
+    
+}
+
+header .user_unauth{
+    display: flex;
+    align-items: center;
+}
+
+
+header .user_unauth a{
+    margin-right: 25px;
+    margin-left: 10px;
+    color: #01011f;
+}
+
+
+header .user_unauth a.register{
+    border: 1px solid #01011f;
+    border-radius: 7px;
+    padding: 4px 10px;
+}
+
+header .user_unauth a.register:hover{
+    border: 2px solid aqua;
+    border-radius: 7px;
+    padding: 4px 10px;
+    background-color: #2767f0;
+    color: #fff;
+}
+
+
+header .user_unauth a#login{
+    color: #fff;
+    background-color: #01011f;
+    border-radius: 7px; 
+    padding: 5px 20px; 
+}
+
+header .user_unauth a#login:hover{
+    color: #01011f;
+    background-color: aqua;
+    border-radius: 7px;
+}
+
+
+/* main details div */
+
+
+.start{
+    background: url("/imgg/product_images/broad_image.png") no-repeat center;
+    height: 50vh;
+    min-height: 400px;
+    margin-top: 55px;
+    background-color: #030507;
+    overflow: hidden;
+    margin-bottom: 55px;
+}
+
+.start .start-content div{
+    display: flex;
+    flex-direction: column;
+    margin-left: 25%;
+    margin-top: 13%;
+    color: #fff;
+    width: 30%;
+}
+
+
+.start .start-content .search{
+    margin-top: 5px;
+    margin-left: 25%;
+    
+}
+
+.start .start-content .search input{
+    position: relative;
+    height: 45px;
+    width: 600px;
+    padding: 12px;
+    font-size: 15px;
+    border-radius: 7px;
+    border: none;
+}
+
+.start .start-content .search i{
+    position: absolute;
+    color: black;
+    margin-left: 570px;
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+/* button section selectors */
+
+.btn-filter{
+    margin: 30px;
+    height: 100px;
+}
+
+.btn-filter .btn-filter-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 12%;
+    margin-bottom: 50px;
+}
+
+.btn-filter .btn-filter-content button{
+    padding: 5px 30px;
+    background-color: #E8F8FB;
+    border: 2px solid #9747FF;
+    border-radius: 5px;
+    color: #808AB2;
+    cursor: pointer;
+}
+
+.btn-filter .btn-filter-content button.alive{
+    background-color: #03045E;
+    color: #fff;
+}
+
+
+
+.btn-cards{
+    margin: 20px 0;
+    height: 100%;
+}
+
+/*
+.btn-cards .btn-cards-container{
+
+    
+}
+
+.btn-cards .btn-cards-container img{
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+header nav {
+    /* padding: 15px; 
+    text-align: center;
+    box-shadow: 0 0 3px #000;
+}
+
+header nav .native_nav_items {
+    display: flex;
+    width: 100%;
+    position: relative;
+    justify-content: space-between;
+    text-align: center;
+    padding: 15px 30px;
+}
+
+header nav div img{
+    width: 300px;
+    float: left;
+    padding: 0;
+    margin: 0;
+
+} 
+
+header nav {
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 0 3px #000;
+}
+header nav ul{
+    
+}
+
+
+header nav ul li{
+    display: inline;
+    padding-left: 5px;
+}
+
+header nav ul li a{
+    color: #01011f;
+    text-decoration: none;
+    padding: 6px 20px;
+    transition: 0.3 ease;
+    cursor: pointer;
+}
+
+header nav ul li a:hover{
+    color: aqua;
+}
+
+header nav ul #login a{
+    color: #fff;
+    background-color: #01011f;
+    border-radius: 7px;  
+    margin-right: 200px;  
+    display: ;
+}
+
+header nav ul #login a:hover{
+    color: #01011f;
+    background-color: aqua;
+    border-radius: 7px;
+}
+
+
+header nav ul #register a{
+    border: 1px solid #01011f;
+    border-radius: 7px;
+    padding: 5px 10px;
+    margin-left: 200px;
+} */

@@ -1,0 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&family=Poppins:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins","Lexend Deca", "Big SHoulders Display", sans-serif;
+  text-decoration: none;
+  box-sizing: border-box;
+}
