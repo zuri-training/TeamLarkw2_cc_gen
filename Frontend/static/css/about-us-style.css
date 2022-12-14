@@ -68,7 +68,7 @@ button{
   width: 120px;
 }
 .intro-text {
-  background-image: linear-gradient(rgba(3, 4, 94, 0.5), rgba(3, 4, 94, 0.4)), url("../images/bg-image2.jpg");
+  background-image: linear-gradient(rgba(3, 4, 94, 0.5), rgba(3, 4, 94, 0.4)), url("../images/about-us-images/bg-image2.jpg");
   background-repeat: no-repeat;
   border: 1px solid #000000;
   top: 90px;
@@ -138,7 +138,7 @@ button{
 
 .about-icon img {
 
-  background-image: url("../images/Rectangle\ 120.svg");
+  background-image: url("../images/about-us-images/Rectangle\ 120.svg");
   height: 60px;
   width: 70px;
   padding: 10px;
