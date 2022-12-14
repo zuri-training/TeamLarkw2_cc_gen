@@ -12,6 +12,7 @@ body {
   height: 100vh;
 }
 
+/* Header */
 
 a {
   text-decoration: none;
@@ -67,6 +68,9 @@ header .logo{
 button{
   width: 120px;
 }
+
+/* Introduction Zone */
+
 .intro-text {
   background-image: linear-gradient(rgba(3, 4, 94, 0.5), rgba(3, 4, 94, 0.4)), url("../images/about-us-images/bg-image2.jpg");
   background-repeat: no-repeat;
@@ -254,47 +258,6 @@ button{
 
 }
 
-
-
-
-
-footer {
-  background: #01011F;
-  height: 500px;
-  padding: 80px 0px 80px 20px;
-  color: #f7efef;
-  
-  position: relative;
-}
-
-.footer-container {
-  display: flex;
-  position: relative;
-  color: rgb(255, 255, 255);
-}
-
-
-
-i {
-  color: #fff;
-}
-
-.fa:hover {
-  opacity: 0.7;
-}
-
-.follow-us {
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
-  margin-left: 30px;
-}
-.btm-foot{
-  position: absolute;
-  bottom: 20px;
-  left: 500px;
-}
-
 .clients .row {
   display: flex;
   flex-direction: row;
@@ -352,3 +315,43 @@ input {
   text-align: center;
   font-size: 24px;
 }
+
+/* Footer */
+
+footer {
+  background: #01011F;
+  height: 500px;
+  padding: 80px 0px 80px 20px;
+  color: #f7efef;
+  
+  position: relative;
+}
+
+.footer-container {
+  display: flex;
+  position: relative;
+  color: rgb(255, 255, 255);
+}
+
+
+
+i {
+  color: #fff;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.follow-us {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-left: 30px;
+}
+.btm-foot{
+  position: absolute;
+  bottom: 20px;
+  left: 500px;
+}
+
