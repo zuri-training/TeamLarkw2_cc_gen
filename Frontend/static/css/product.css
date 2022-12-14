@@ -129,7 +129,7 @@ header .user_unauth a#login:hover{
 
 
 .start{
-    background: url("/imgg/product_images/broad_image.png") no-repeat center;
+    background: url("../images/product_images/background.svg") no-repeat center;
     height: 50vh;
     min-height: 400px;
     margin-top: 55px;
