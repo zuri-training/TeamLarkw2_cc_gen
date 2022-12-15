@@ -5,25 +5,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FAQ</title>
+    <title>CC Gen | FAQ</title>
     <link rel="stylesheet" href="./static/css/faq.css">
+    <script
+      src="https://kit.fontawesome.com/1c624ab945.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
 </head>
 
 <body>
     <header>
-        <nav>
-            <div class="logo">
-                <p><img src="IMG-20221207-WA0031 2.PNG" height="130px"></p>
+        <a href="./index.html" class="logo"><img src="./static/images/logo.png" alt=""></a>
+            <ul class="navbar">
+                <li><a href="./index.html"  >Home</a></li>
+                <li><a href="./product.html" >Products</a></li>
+                <li><a href="./about-us.html">About us</a></li>
+                <li><a href="./contact.html">Contact us</a></li>
+                <li><a href="./faq.html" class="active">FAQs</a></li>
+            </ul>
+            <div class="user_unauth">
+                <a href="signup.html" class="register">Register</a>
+                <a href="login.html" id="login">Login</a>
             </div>
-            <div class="m">
-                <a href="" class="link">Home</a>
-                <a href="" class="link">Library</a>
-                <a href="" class="link">Contact Us</a>
-                <a href="" class="link">FAQs</a>
-                <a href="" class="link">About Us</a>
-            </div>
-        </nav>
+            </ul>  
     </header>
     <div style="text-align: center;" class="a">
         <h1 class="b">Support And FAQ</h1>
@@ -127,62 +132,58 @@
                             </div>
                         </div>
     </main>
-    <footer>
-        <div class="footer-container">
-            <div class="follow-us">
-                <p>
-                <h3>Follow us:</h3>
-                </p><br>
-                <!-- Add font awesome icons -->
-                <div><a href="#" class="fa"><img src="Vector.PNG" alt=""></a></div>
-                </li><br>
-                <div><a href="#" class="fa"><img src="twitter.PNG" alt=""></a></div>
-                </li><br>
-                <div><a href="#" class="fa"><img src="linkedin.PNG" alt=""></a></div>
-                </li><br>
-            </div>
-            <div class="foot-content">
-                <div class="foot-item">
-                    <p>
-                    <h2>Company</h2>
-                    </p><br>
-                    <p><small><a href="">About Us</a></small></p><br>
-                    <p><small><a href="">Contact Us</a></small></p><br>
-                    <p><small><a href="">Legal</a></small></p><br>
-                    <p><small><a href="">Terms and Conditions</a></small></p><br>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col" id="footer-col-social-links">
+                    <h4>Follow us:</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
                 </div>
-                <div class="foot-item">
-                    <p>
-                    <h2>Download</h2>
-                    </p><br>
-                    <p><small><a href="">IOS</a></small></p><br>
-                    <p><small><a href="">Andriod</a></small></p><br>
-                    <p><small><a href="">Mac</a></small></p><br>
-                    <p><small><a href="">Desktop</a></small></p><br>
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">Legal</a></li>
+                        <li><a href="#">Terms and Conditions</a></li>
+                    </ul>
                 </div>
-                <div class="foot-item">
-                    <p>
-                    <h2>Community</h2>
-                    </p><br>
-                    <p><small><a href="">Events</a></small></p><br>
-                    <p><small><a href="">NHIS</a></small></p><br>
-                    <p><small><a href="">Organizers</a></small></p><br>
-                    <p><small><a href="">Blog</a></small></p><br>
+                <div class="footer-col">
+                    <h4>Download</h4>
+                    <ul>
+                        <li><a href="#">ios</a></li>
+                        <li><a href="#">Android</a></li>
+                        <li><a href="#">Mac</a></li>
+                        <li><a href="#">Windows</a></li>
+                    </ul>
                 </div>
-                <div class="foot-item">
-                    <p>
-                    <h2>CC Gen</h2>
-                    </p><br>
-                    <p><small><a href="">Latest</a></small></p><br>
-                    <p><small><a href="">Features</a></small></p><br>
-                    <p><small><a href="">How it Works</a></small></p><br>
-                    <p><small><a href="">Contact Us</a></small></p><br>
+                <div class="footer-col">
+                    <h4>Community</h4>
+                    <ul>
+                        <li><a href="#">Events</a></li>
+                        <li><a href="#">NHIS</a></li>
+                        <li><a href="#">Organizers</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>CC Gen</h4>
+                    <ul>
+                        <li><a href="#">Latest</a></li>
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">How it works</a></li>
+                        <li><a href="#">Contact us</a></li>
+                    </ul>
                 </div>
             </div>
+            <div class="copyright">Designed by TeamLarkw2 | Zuri | 2022</div>
         </div>
-        <div class="btm-foot">
-            <small>© 2022 TeamLarwk2.</small>
-        </div>
+        
     </footer>
     <script src="project.js"></script>
 </body>
