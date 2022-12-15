@@ -57,8 +57,14 @@ header{
     transition: all 0.3s ease;
 }
 
+<<<<<<< HEAD
+  margin: 0 0 0 20px;
+  font-weight: 500;
+  font-size: 17px;
+=======
 .navbar a:hover{
     color: aqua;
+>>>>>>> 365fd8b36c125ac34fa34531c6cc3ffa96679b77
 }
 
 .navbar a.active{
