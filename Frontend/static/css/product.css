@@ -13,12 +13,6 @@ html{
 }
 
 
-.max-width{
-    max-width: 1300px;
-    padding: 0 80px;
-    margin: auto;
-}
-
 /* nav bar */
 header{
     position: fixed;
@@ -32,6 +26,7 @@ header{
     padding: 2px 0;
     transition: all 0.50s ease;
     box-shadow: 0 0 3px #000;
+    background-color: #fff;
 }
 
 .logo{
@@ -129,7 +124,7 @@ header .user_unauth a#login:hover{
 
 
 .start{
-    background: url("../images/product_images/background.svg") no-repeat center;
+    background: url("../images/product_images/broad_image.png") no-repeat center;
     height: 50vh;
     min-height: 400px;
     margin-top: 55px;
@@ -201,140 +196,147 @@ header .user_unauth a#login:hover{
     color: #fff;
 }
 
-
-
-.btn-cards{
-    margin: 20px 0;
-    height: 100%;
+.btn-filter .btn-filter-content button.alive a{
+    color: #fff;
 }
 
-/*
+
+
 .btn-cards .btn-cards-container{
-
-    
-}
-
-.btn-cards .btn-cards-container img{
- 
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* 
-header nav {
-    /* padding: 15px; 
-    text-align: center;
-    box-shadow: 0 0 3px #000;
-}
-
-header nav .native_nav_items {
-    display: flex;
-    width: 100%;
     position: relative;
-    justify-content: space-between;
-    text-align: center;
-    padding: 15px 30px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    width:80%;
+    display:grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 300px));
+    column-gap: 70px;
+    row-gap: 20px;
 }
 
-header nav div img{
-    width: 300px;
-    float: left;
-    padding: 0;
-    margin: 0;
 
-} 
-
-header nav {
-    padding: 15px;
-    text-align: center;
-    box-shadow: 0 0 3px #000;
-}
-header nav ul{
+.load-btn{
+    position:absolute;
+    left: 600px;
     
 }
 
-
-header nav ul li{
-    display: inline;
-    padding-left: 5px;
+.load-btn .load-more-btn{
+    margin-top: 70px;
+    width: 150px;
+    height: 200px;    
 }
 
-header nav ul li a{
-    color: #01011f;
-    text-decoration: none;
-    padding: 6px 20px;
-    transition: 0.3 ease;
+.load-btn .load-more-btn button{
+    padding: 10px 15px;
+    font-size: 17px;
+    background-color: #03045E;
+    border-radius: 6px;
+    border: none;
     cursor: pointer;
 }
 
-header nav ul li a:hover{
-    color: aqua;
-}
 
-header nav ul #login a{
+.load-btn .load-more-btn button a{
     color: #fff;
-    background-color: #01011f;
-    border-radius: 7px;  
-    margin-right: 200px;  
-    display: ;
 }
 
-header nav ul #login a:hover{
-    color: #01011f;
-    background-color: aqua;
-    border-radius: 7px;
+.load-btn .load-more-btn button:hover {
+    color: #03045E;
+    background-color: rgb(18, 156, 190);
+    border: 1px solid 03045E;
+    transition: all 0.1s ease;
+}
+
+footer{
+    margin-top: 170px;
+    width: 100%;
+    padding: 70px 0;
+    background-color:#01011f;
+    line-height: 1.5;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container{
+    max-width: 1170px;
+    margin: auto;
 }
 
 
-header nav ul #register a{
-    border: 1px solid #01011f;
-    border-radius: 7px;
-    padding: 5px 10px;
-    margin-left: 200px;
-} */
+.container .copyright{
+    color: #fff;
+    margin-top: 40px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-bottom: -50px;
+}
+
+ul{
+    list-style: none;
+}
+
+.footer-col{
+    width: 20%;
+    padding: 0 15px;
+}
+
+.footer-col h4{
+    font-size: 18px;
+    color: #fff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+
+
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    Left:0;
+    bottom: -10px;
+    background-color: #fff;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+
+}
+
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+
+}
+
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color: #fff;
+    padding-left: 8px;
+}
+
+#footer-col-social-links div.social-links a{
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    justify-content: center;
+    margin-left: 20px;
+   margin-top: 15px;
+   transition: all 0.2s ease;
+}
+
+#footer-col-social-links div.social-links a:hover{
+    color: aquamarine;
+}
