@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    
+    
+  }
+  
+  body {
+    height: 100vh;
+  }
+  
+  /* Header */
+  
+  a {
+    text-decoration: none;
+    color: #f7efef;
+  }
+  
+  header .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 70px;
+    
+  }
+  .login{
+    background-color: #03045E;
+    color: #ffffff;
+    margin-left: 15px;
+  }
+  .login:hover{
+    background-color: #ffffff;
+    border: 1px solid #03045E;
+    color: #03045E;
+  }
+  .btn-outline{
+    border: 1px solid #03045E;
+    color: #03045E;
+  }
+  .btn-outline:hover{
+    background-color: #03045E;
+    color: #ffffff;
+  }
+  .navbar a{
+    color: #03045E;
+    font-weight: 500;
+  }
+  .navbar-nav{
+  
+    margin: 0 0 0 20px;
+    font-weight: 500;
+    font-size: 17px;
+  }
+  .navbar-nav a:hover{
+    text-decoration: solid underline #03045E 2px;
+    text-underline-offset: 5px;
+  }
+  .nav-item{
+    margin: 0 8px;
+  }
+  .button{
+    margin-left: 70px;
+  }
+  button{
+    width: 120px;
+  }
+
+  /*  main section*/ 
+  .naira-main{
+    position: relative;
+    
+  }
+  .naira-card{
+    height: 600px;
+    width: 1000px;
+    margin: 40px 20px;
+    z-index: 3;
+  }
+  .naira-main .btn{
+    width: 450px;
+    height: 80px;
+    background: #02033F;
+    color: #fff;
+    border-radius: 20px;
+    position: absolute;
+    top: 470px;
+    left: 580px;
+  }
+  .stars{
+    width: 120px;
+    height: 24px;
+  }
+  .fa-thin{
+    width: 30px;
+    height: 30px;
+  }
+  .credit-intro{
+    position: absolute;
+    top: 100px;
+    left: 600px;
+  }
+  h2{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    color: #03045E;
+  }
+  .icons{
+    position: absolute;
+    top: 200px;
+    left: 950px;
+  }
+  .icons i{
+    padding: 0 5px;
+  }
+  .purple-box{
+    height: 160px;
+    width: 200px;
+    position: absolute;
+    top: 240px;
+    right: 240px;
+    z-index: -1;
+  }
+  .purple-box-2{
+    height: 160px;
+    width: 200px;
+    position: absolute;
+    top: 240px;
+    right: 5px;
+    z-index: -1;
+  }
+  .naira-main p{
+    position: absolute;
+    font-size: 17px;
+    line-height: 19px;
+    width: 400px;
+    height: 59px; 
+    bottom: 185px;
+    left: 605px;
+
+  }
+
+  /* cards section */
+
+  .cards-section h5{
+    width: 200px;
+    height: 59px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .cards-section img{
+    width: 240px;
+    height: 140px;
+  }
+  .black-card{
+    width: 260px !important;
+    height: 165px !important;
+  }
