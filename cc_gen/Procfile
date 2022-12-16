@@ -1,0 +1,1 @@
+web: gunicorn cc_gen_project.wsgi. --log-file -
