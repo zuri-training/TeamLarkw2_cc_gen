@@ -1,4 +1,8 @@
 # TeamLarkw2: Credit Card Design Library
+![CC GEN](https://github.com/zuri-training/TeamLarkw2_cc_gen/blob/main/Frontend/static/images/logo.png)
+
+### Hosting Heroku
+[Hosting Link](https://teamlarkw2.herokuapp.com/)
 
 <details>
   <summary>
@@ -185,3 +189,6 @@ For TeamLarkw2 members, follow any of these steps to collaborate:
 
 ## Conclusion
 This project is a prototype for an online credit card library and it is restricted within the I4G x Zuri Project Phase premises. This has been implemented under the guidance of I4G x Zuri mentors. This project is useful for users as well as the project team.
+
+### Hosting Heroku
+[Hosting Link](https://teamlarkw2.herokuapp.com/)
