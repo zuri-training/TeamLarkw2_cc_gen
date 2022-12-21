@@ -1,0 +1,253 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&family=Poppins:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+main {
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  width: 60%;
+  height: 550px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px gray;
+}
+
+.sign_in_box {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+
+  height: 100%;
+  border-radius: 10px;
+}
+
+.sign_in_text {
+  padding: 5px;
+  width: 823px;
+  height: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.sign_in_image_page {
+  padding: 5px;
+  width: 617px;
+  height: 100%;
+  background-color: #91e0ef;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  overflow: hidden;
+}
+
+.sign_in_image_page .logo {
+  display: block;
+  width: 60%;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sign_in_image_page .sign_in_image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 75%;
+  width: 100%;
+  margin-top: 10%;
+}
+
+.sign_in_text .sign_in_head {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sign_in_text .sign_in_head span {
+  display: block;
+  margin-left: 130px;
+  /* margin-right: 70px; */
+  width: 50%;
+}
+
+.sign_in_text .sign_in_head span h2 {
+  justify-content: center;
+  font-weight: 700;
+}
+.sign_in_text .sign_in_head #lang {
+  border: none;
+}
+
+.sign_in_text .sign_in_head #lang::after {
+  border: none;
+}
+
+.sign_in_text #welcome_note {
+  display: block;
+  margin-left: auto;
+  margin-right: 70px;
+  width: 80%;
+  margin-top: 40px;
+}
+
+.sign_in_text #welcome_note p {
+  text-align: center;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.sign_in_text #form {
+    margin-top: 20px;
+  margin-left: 15px;
+  padding-left:15px;
+}
+
+.sign_in_text #form .sign_in_form .forgot_password{
+    text-align: right;
+    margin-right: 85px;
+    margin-top: 3px;
+    font-size: 12px;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+} 
+
+.sign_in_text #form .sign_in_form .forgot_password a{
+    color: unset;
+}
+.sign_in_text #form .sign_in_form .checkbox {
+  margin: 5px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.sign_in_text #form .sign_in_form div #remember_me{
+  margin-left: 10px;
+  font-size: 10px;
+  font-weight: none;
+}
+
+.sign_in_text #form .sign_in_form .name,
+.sign_in_text #form .sign_in_form .password {
+  width: 80%;
+}
+
+.sign_in_text #form .sign_in_form .name label,
+.sign_in_text #form .sign_in_form .password label {
+  font-size: 13px;
+}
+
+.sign_in_text #form .sign_in_form .name .full_name_text,
+.sign_in_text #form .sign_in_form .password input {
+  font-size: 12px;
+  padding: 6px;
+  height: 35px;
+  border: none;
+  background: #f0f0f0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.sign_in_text #form .sign_in_form .password input {
+  position: relative;
+}
+
+.sign_in_text #form .sign_in_form .password i#show_password{
+  position: absolute;
+  margin-left: -30px;
+  margin-top: 9px;
+  cursor: pointer;
+  color: lightslategray;
+}
+
+.sign_in_text #form .sign_in_form .submit_btn {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.sign_in_text #form .sign_in_form .btn {
+  background-color: #01011f;
+  font-weight: lighter;
+  color: white;
+  margin-top: 5px;
+
+  padding: 10px 20px 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.sign_in_text #form .sign_in_form .btn:hover {
+  color: #05424e;
+  background-color: #b6eaf4;
+}
+
+.sign_in_text #form .sign_in_form #line_break::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  width: 180px;
+  height: 1px;
+  background: #160d66;
+  transform: translateX(-285px);
+  margin-top: 20px;
+}
+
+.sign_in_text #form .sign_in_form #line_break::after {
+  position: absolute;
+  left: 50%;
+  font-size: 15px;
+  margin-top: 3px;
+  padding: 5px;
+  background: #fff;
+  transform: translateX(-210px);
+}
+
+.sign_in_text #form .sign_in_form #line_break::after {
+  content: "or";
+}
+
+.sign_in_text #form .sign_in_form #sign_in_sm {
+  margin-top: 30px;
+  display: block;
+  margin-left: 115px;
+  width: 50%;
+}
+
+.sign_in_text #form .sign_in_form .social-media {
+  display: flex;
+  margin-left: 65px;
+  margin-top: 5px;
+}
+
+.sign_in_text #form .sign_in_form .social-media .social-icon {
+  height: 35px;
+  width: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #01011f;
+  border: 1px solid #01011f;
+  border-radius: 50px;
+  margin: 0 5px;
+}
+
+.sign_in_text #form .sign_in_form .social-media .social-icon:hover {
+  color: #2ac8e7;
+  border-color: #2ac8e7;
+}
+
+.sign_in_text #form .sign_in_form #signup_link {
+  font: 0.8em "Lexend Deca";
+  margin-top: 10px;
+  margin-left: 40px;
+  font-weight: lighter;
+}
