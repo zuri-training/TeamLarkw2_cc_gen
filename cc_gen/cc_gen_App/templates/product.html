@@ -1,10 +1,11 @@
+{%load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./static/css/product.css" type="text/css">
+    <link rel="stylesheet" href="{% static '../static/css/product.css' %}" type="text/css">
     <script src="https://kit.fontawesome.com/b5eae3d1fd.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.6.1.min.js"
         integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
@@ -24,13 +25,13 @@
 </head>
 <body>
     <header>       
-            <a href="index.html" class="logo"><img src="./static/images/logo.png" alt=""></a>
+            <a href="index.html" class="logo"><img src="{% static '../static/images/logo.png' %}" alt=""></a>
             <ul class="navbar">
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./product.html" class="active">Products</a></li>
-                <li><a href="./about-us.html">About us</a></li>
-                <li><a href="./contact.html">Contact us</a></li>
-                <li><a href="./faq.html">FAQs</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html" class="active">Products</a></li>
+                <li><a href="about-us.html">About us</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+                <li><a href="faq.html">FAQs</a></li>
             </ul>
             <div class="user_unauth">
                 <a href="./signup.html" class="register">Register</a>
@@ -76,30 +77,30 @@
 
      <section class="btn-cards" id="btn-cards">
             <div class="btn-cards-container">
-                <img src="./static/images/product_images/Group 3.png" >
-                <img src="./static/images/product_images/Group 118.png" >
-                <img src="./static/images/product_images/Group 5.png" >
-                <img src="./static/images/product_images/Group 98.png" >
-                <img src="./static/images/product_images/Group 119.png" >
-                <img src="./static/images/product_images/Group 120.png" >
-                <img src="./static/images/product_images/Group.png">
-                <img src="./static/images/product_images/Group 4.png">
-                <img src="./static/images/product_images/Group-1.png" >
-                <img src="./static/images/product_images/Frame 1.png" >
-                <img src="./static/images/product_images/Credit card mockup.png" >
-                <img src="./static/images/product_images/Card 1.png">
-                <img src="./static/images/product_images/Frame 4.png" >
-                <img src="./static/images/product_images/Card 3.png" >
-                <img src="./static/images/product_images/Frame 2.png" >
-                <img src="./static/images/product_images/Card 2.png" >
-                <img src="./static/images/product_images/Frame 5.png" >
-                <img src="./static/images/product_images/Frame 6.png" >
-                <img src="./static/images/product_images/cart-1.png" >
-                <img src="./static/images/product_images/cart-2.png" >
-                <img src="./static/images/product_images/cart-3.png" >
-                <img src="./static/images/product_images/Frame 3.png">
-                <img src="./static/images/product_images/Cart Minimal 3.png">
-                <img src="./static/images/product_images/Cart Minimal 5.png">
+                <img src="{% static '../static/images/product_images/Group 3.png' %}" >
+                <img src="{% static '../static/images/product_images/Group 118.png' %}" >
+                <img src="{% static '../static/images/product_images/Group 5.png' %}" >
+                <img src="{% static '../static/images/product_images/Group 98.png' %}" >
+                <img src="{% static '../static/images/product_images/Group 119.png' %}" >
+                <img src="{% static '../static/images/product_images/Group 120.png' %}" >
+                <img src="{% static '../static/images/product_images/Group.png' %}">
+                <img src="{% static '../static/images/product_images/Group 4.png' %}">
+                <img src="{% static '../static/images/product_images/Group-1.png' %}" >
+                <img src="{% static '../static/images/product_images/Frame 1.png' %}" >
+                <img src="{% static '../static/images/product_images/Credit card mockup.png' %}" >
+                <img src="{% static '../static/images/product_images/Card 1.png' %}">
+                <img src="{% static '../static/images/product_images/Frame 4.png' %}" >
+                <img src="{% static '../static/images/product_images/Card 3.png' %}" >
+                <img src="{% static '../static/images/product_images/Frame 2.png' %}" >
+                <img src="{% static '../static/images/product_images/Card 2.png'%}" >
+                <img src="{% static '../static/images/product_images/Frame 5.png'%}" >
+                <img src="{% static '../static/images/product_images/Frame 6.png' %}" >
+                <img src="{% static '../static/images/product_images/cart-1.png' %}" >
+                <img src="{% static '../static/images/product_images/cart-2.png' %}" >
+                <img src="{% static '../static/images/product_images/cart-3.png' %}" >
+                <img src="{% static '../static/images/product_images/Frame 3.png' %}">
+                <img src="{% static '../static/images/product_images/Cart Minimal 3.png' %}">
+                <img src="{% static '../static/images/product_images/Cart Minimal 5.png' %}">
             </div>
     </section>
     <section class="load-btn" id="load-btn">
@@ -162,6 +163,6 @@
         </div>
         
     </footer>
-    <script src="./js/product.js"></script>
+    <script src="{% static '../static/js/product.js' %}"></script>
 </body>
 </html>

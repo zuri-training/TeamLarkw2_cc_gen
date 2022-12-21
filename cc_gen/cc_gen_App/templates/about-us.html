@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,7 +20,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"
       integrity="sha512-3J8teBiHrSyaaRBajZyIEtpDsXdPq1gsznKWIVb5CnorQuFhjWGhWe54z8YNnHHr7MZuExb9m5kvf964HiT1Sw=="
       crossorigin="anonymous" referrerpolicy="no-referrer"></script> 
-    <link rel="stylesheet" href="./static/css/about-us-style.css" />
+    <link rel="stylesheet" href="  {% static '../static/css/about-us-style.css' %}" />
 
   
   <title>CC Gen | About Us</title>
@@ -27,13 +28,13 @@
 
 <body>
   <header>
-    <a href="./index.html" class="logo"><img src="./static/images/logo.png" alt=""></a>
+    <a href="./index.html" class="logo"><img src="{% static '../static/images/logo.png' %}"></a>
         <ul class="navbar">
-            <li><a href="./index.html" >Home</a></li>
-            <li><a href="./product.html" >Products</a></li>
-            <li><a href="./about-us.html" class="active">About us</a></li>
-            <li><a href="./contact.html">Contact us</a></li>
-            <li><a href="./faq.html">FAQs</a></li>
+            <li><a href="index.html" >Home</a></li>
+            <li><a href="product.html" >Products</a></li>
+            <li><a href="about-us.html" class="active">About us</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+            <li><a href="faq.html">FAQs</a></li>
         </ul>
         <div class="user_unauth">
             <a href="signup.html" class="register">Register</a>
@@ -51,7 +52,7 @@
     </div>
     <div class="about-section">
       <div class="about-img">
-        <img src="./static/images/about-us-images/ccgen-card.svg" alt="mastercard" />
+        <img src=" {% static '../static/images/about-us-images/ccgen-card.svg' %}" alt="mastercard" />
       </div>
       <div class="about-text">
         <h2>CC GEN</h2>
@@ -66,7 +67,7 @@
           <div class="row justify-content-center align-items-center">
             <div class="col">
               <div class="d-flex flex-column">
-                <div class="about-icon"><img src="./static/images/about-us-images/Vector.svg" alt="user profile"></div>
+                <div class="about-icon"><img src=" {% static '../static/images/about-us-images/Vector.svg' %}" alt="user profile"></div>
                 <div><span>Over</span></div>
                 <div class="emphasis"><h3>1000</h3></div>
                 <div><span>Users</span></div>
@@ -74,7 +75,7 @@
             </div>
             <div class="col">
               <div class="d-flex flex-column">
-                <div class="about-icon"><img src="./static/images/about-us-images/Vector (1).svg" alt="globe"></div>
+                <div class="about-icon"><img src="{% static '../static/images/about-us-images/Vector (1).svg' %}" alt="globe"></div>
                 <div><span>Across</span></div>
                 <div class="emphasis"><h3>50</h3></div>
                 <div><span>Countries</span></div>
@@ -96,28 +97,28 @@
         
       </div>
       <div class="service-img">
-        <img class="center-card" src="./static/images/about-us-images/center-card.svg" alt="center mastercard" />
-        <img class="left-card" src="./static/images/about-us-images/left-card.svg" alt="left mastercard" />
-        <img class="right-card" src="./static/images/about-us-images/right-card.svg" alt="right mastercard" />
+        <img class="center-card" src="{% static '../static/images/about-us-images/center-card.svg '%}" alt="center mastercard" />
+        <img class="left-card" src="{% static '../static/images/about-us-images/left-card.svg' %}" alt="left mastercard" />
+        <img class="right-card" src="{% static '../static/images/about-us-images/right-card.svg' %}" alt="right mastercard" />
       </div>
     </div>
     <div class="clients">
       <p>Some of our clients</p>
       <div class="row">
         <div class="column">
-          <img class="flutterwave" src="./static/images/about-us-images/flutterwave.svg" alt="Flutterwave">
+          <img class="flutterwave" src="{% static '../static/images/about-us-images/flutterwave.svg' %}" alt="Flutterwave">
         </div>
         <div class="column">
-          <img src="./static/images/about-us-images/citibank.svg" alt="Citibank">
+          <img src=" {% static '../static/images/about-us-images/citibank.svg' %}" alt="Citibank">
         </div>
         <div class="column">
-          <img src="./static/images/about-us-images/starling-bank.svg" alt="Starling">
+          <img src="{% static '../static/images/about-us-images/starling-bank.svg'%}" alt="Starling">
         </div>
         <div class="column">
-          <img src="./static/images/about-us-images/Axis_Bank.svg" alt="Axis bank">
+          <img src="{% static '../static/images/about-us-images/Axis_Bank.svg'%}" alt="Axis bank">
         </div>
         <div class="column">
-          <img src="./static/images/about-us-images/hsbc.svg" alt="hsbc">
+          <img src="{% static '../static/images/about-us-images/hsbc.svg'%}" alt="hsbc">
         </div>
       </div>
       <div class="contact-me">
